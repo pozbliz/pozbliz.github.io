@@ -21,8 +21,8 @@ In simple words: an AI agent works toward a goal using tools and taking actions 
 
 ## What is an AI coding agent?
 
-"Coding agents are a subset of AI agents specifically designed to help developers with coding tasks." 
-See [GitHub Resources: What are AI agents?](https://github.com/resources/articles/what-are-ai-agents).
+"Coding agents are a subset of AI agents specifically designed to help developers with coding tasks."
+(See [GitHub Resources: What are AI agents?](https://github.com/resources/articles/what-are-ai-agents)).
 However, the same features that make these agents useful for coding also make them useful for other 
 software work: reading project files, running commands, checking errors, and iterating on the result. 
 
@@ -58,7 +58,7 @@ A **terminal** is the window that lets you interact with a shell. Example: `Wind
 Most coding-agent workflows did not become useful because they clicked through GUIs like a human. Instead, they work 
 through text-based tools: files, commands, logs, tests and CLIs.
 
-*There is a separate area called "computer use" where AI agents interact with a GUI by clicking, typing, and reading 
+*There is a separate area called* computer use *where AI agents interact with a GUI by clicking, typing, and reading 
 the screen. That is worth its own post. For this article, I will focus on text-based work through a CLI.*
 
 A CLI gives an AI agent a text-based way to control software without needing to click through the GUI. In some tools, 
