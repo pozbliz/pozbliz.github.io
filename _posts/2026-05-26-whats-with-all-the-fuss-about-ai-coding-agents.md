@@ -2,7 +2,7 @@
 layout: post
 title: "What's with all the fuss about AI coding agents?"
 date: 2026-05-26
-categories: [ai]
+categories: [agents]
 tags: [coding-agents, ai-agents, cli, codex]
 ---
 
