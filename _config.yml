@@ -19,7 +19,7 @@ github:
   username: pozbliz
 
 twitter:
-  username: seb_sandbox
+  username: sebs_sandbox
 
 social:
   name: Sebastian Rotter
@@ -27,7 +27,7 @@ social:
   fediverse_handle:
   links:
     - https://github.com/pozbliz
-    - https://x.com/seb_sandbox
+    - https://x.com/sebs_sandbox
 
 webmaster_verifications:
   google:
@@ -59,7 +59,7 @@ pageviews:
 theme_mode:
 
 cdn:
-avatar:
+avatar: /assets/img/sebs-sandbox-profile-icon.png
 social_preview_image:
 
 toc: true
