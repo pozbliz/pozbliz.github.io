@@ -117,20 +117,20 @@ points.
 In my own projects, I split these preferences into multiple files under `.claude/rules/` and
 reference the relevant ones from `CLAUDE.md`.
 
-- **code_style.md:** for my coding style preferences,
-- **custom_libraries_overview.md:** explanations for custom libraries I have
+- `code_style.md`: for my coding style preferences,
+- `custom_libraries_overview.md`: explanations for custom libraries I have
   created so Claude is aware of their existence and what they do,
-- **development_workflow.md:** general notes on the steps of my development
+- `development_workflow.md`: general notes on the steps of my development
   workflows, e.g. existing pre-commit hooks, linters, static type checkers,
   which directories to work in, and similar setup details.
-- **documentation_workflow.md:** how to create project documentation, e.g. what
+- `documentation_workflow.md`: how to create project documentation, e.g. what
   goes into a project's `README.md` and how to structure it,
   how to improve existing documentation to incorporate learnings,
-- **git_workflow.md:** branching strategy, commit message format, commit
+- `git_workflow.md`: branching strategy, commit message format, commit
   contents and timing,
-- **pipeline_rules.md:** specific rules for data pipelines,
-- **review_config.md:** rules for how to do code reviews,
-- **testing_rules.md:** how to do unit, integration, and E2E tests.
+- `pipeline_rules.md`: specific rules for data pipelines,
+- `review_config.md`: rules for how to do code reviews,
+- `testing_rules.md`: how to do unit, integration, and E2E tests.
 
 You can read more about this topic at [CLAUDE.md vs auto
 memory][memory].
