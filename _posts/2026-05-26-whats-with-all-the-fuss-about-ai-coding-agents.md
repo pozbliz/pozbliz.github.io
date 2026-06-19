@@ -2,6 +2,8 @@
 layout: post
 title: "What's with all the fuss about AI coding agents?"
 date: 2026-05-26
+excerpt: "An introduction to AI coding agents for readers familiar with ChatGPT, explaining how agents use files, commands, CLIs, and tools to work closer to real workflows."
+subtitle: "Why AI coding agents are different from normal chat tools, and why they are worth learning."
 categories: [agents]
 tags: [coding-agents, ai-agents, cli, codex]
 ---

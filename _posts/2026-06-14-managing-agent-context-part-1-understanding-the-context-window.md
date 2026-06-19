@@ -3,6 +3,7 @@ layout: post
 title: "Managing agent context - Part 1: Understanding the context window"
 date: 2026-06-14
 excerpt: "A practical look at what fills an AI coding agent's context window, using Claude Code's /context view and Codex's /status command as examples."
+subtitle: "A practical look at what fills an AI coding agent's context window, with examples from Claude Code and Codex."
 categories: []
 tags: [ai-agents, context-engineering, claude-code, codex]
 ---
