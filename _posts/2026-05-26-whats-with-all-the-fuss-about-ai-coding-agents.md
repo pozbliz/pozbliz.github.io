@@ -151,12 +151,14 @@ Some personal office productivity use cases I have heard people describe:
 - creating follow-up reminders when there is no reply after a set number of days,
 - reviewing writing against specific style, tone, and clarity rules.
 
-I hope the difference is clearer now. Compared with a normal chat interface, coding agents work much closer to 
-the files, tools, and workflows where the actual task happens. There are many more useful examples I have not mentioned 
-here. The main pattern is that any workflow that can be expressed through files, commands, APIs, or repeatable 
-steps is a good candidate for trying an AI agent.
-For my own AI learning, coding agents have become one of the main areas I want to understand better because they
-have already proved useful in my workflows. These tools are also evolving quickly, with new features and slash commands 
-appearing all the time. 
-I want to use future posts to unpack the features and workflows that seem genuinely useful: what they do, when to use 
-them, and where they might still fall short.
+## Conclusion
+
+I hope the difference is clearer now. Compared with a normal chat interface, coding agents 
+work much closer to the files, tools, and workflows where the actual task happens. There are 
+many more useful examples I have not mentioned here. The main pattern is that any workflow that 
+can be expressed through files, commands, APIs, or repeatable steps is a good candidate for 
+trying an AI agent. For my own AI learning, coding agents have become one of the main areas 
+I want to understand better because they have already proved useful in my workflows. These 
+tools are also evolving quickly, with new features and slash commands appearing all the time. 
+I want to use future posts to unpack the features and workflows that seem genuinely useful: what 
+they do, when to use them, and where they might still fall short.
