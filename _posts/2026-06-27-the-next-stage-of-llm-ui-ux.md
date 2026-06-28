@@ -29,6 +29,7 @@ Let's look at some examples Anthropic showed.
 ![Source: x.com @claudeai](/assets/img/posts/the-next-stage-of-llm-ui-ux/coding-request.png)
 
 Source: [@claudeai on X](https://x.com/claudeai/status/2069468696083349701)
+{: .image-source }
 
 You can ask Claude to implement a feature using channel conversations and connected tools it has access to.
 In Anthropic's example, Claude builds it, opens a PR, and finally merges it after human approval.
@@ -36,12 +37,14 @@ In Anthropic's example, Claude builds it, opens a PR, and finally merges it afte
 ![Source: x.com @claudeai](/assets/img/posts/the-next-stage-of-llm-ui-ux/pr-approval.png)
 
 Source: [@claudeai on X](https://x.com/claudeai/status/2069468693017268244)
+{: .image-source }
 
 It can also notify another relevant channel after a change.
 
 ![Source: x.com @claudeai](/assets/img/posts/the-next-stage-of-llm-ui-ux/channel-notification.png)
 
 Source: [@claudeai on X](https://x.com/claudeai/status/2069468693017268244)
+{: .image-source }
 
 ### Investigating incidents
 
@@ -51,6 +54,7 @@ permissions, propose or implement a fix.
 ![Claude investigating an incident from a Slack alert](/assets/img/posts/the-next-stage-of-llm-ui-ux/incident-investigation.png)
 
 Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468902216945939)
+{: .image-source }
 
 ## Watch and follow up
 
@@ -62,6 +66,7 @@ should stay stable. In Anthropic's example, the guardrails are average order val
 ![Claude monitoring an A/B test and its guardrail metrics](/assets/img/posts/the-next-stage-of-llm-ui-ux/monitoring-ab-tests.png)
 
 Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468911700218284)
+{: .image-source }
 
 You can also use it as a background watcher to notify the team when a defined threshold is
 crossed. Anthropic shows an example of CI checks that have been failing for a specified time. Compared to a
@@ -73,6 +78,7 @@ to investigate a failure, identify a likely culprit, and propose a fix in the sa
 ![Claude reporting the CI failure and likely cause](/assets/img/posts/the-next-stage-of-llm-ui-ux/background-monitoring-ci-2.png)
 
 Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468909858873779)
+{: .image-source }
 
 ### Queuing execution after another task has completed
 
@@ -82,6 +88,7 @@ before starting the related frontend task.
 ![Claude waiting for a backend deployment before starting dependent frontend work](/assets/img/posts/the-next-stage-of-llm-ui-ux/queuing-execution.png)
 
 Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468906214007035)
+{: .image-source }
 
 ## Turn conversations into artifacts
 
@@ -93,6 +100,7 @@ example of Claude creating a post-mortem for an incident that was resolved by se
 ![Claude turning an incident thread into a postmortem](/assets/img/posts/the-next-stage-of-llm-ui-ux/incident-post-mortem.png)
 
 Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468908026020170)
+{: .image-source }
 
 ## The death of agent CLIs?
 
