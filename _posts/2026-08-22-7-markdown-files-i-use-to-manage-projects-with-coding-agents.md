@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7 Markdown files I use to manage projects with coding agents"
-date: 2026-08-09
+date: 2026-08-22
 excerpt: "The 7 Markdown files that keep my AI coding agent on track across multiple sessions."
 categories: [agents]
 tags: [ai-agents, agent-workflows, codex, context-engineering, project-management]
@@ -58,12 +58,12 @@ Each file answers a different question:
 The boundaries are not always perfect. A design decision may affect the plan, create new tasks, and reveal a
 learning at the same time. In those cases, I record each fact in the file that owns it.
 
-## `README.md`: the current entry point
+## README.md: the current entry point
 
 The `README.md` explains the project, its goals and scope, and how to get started.
 It is the entry point for both humans and agents.
 
-## `GLOSSARY.md`: the project's shared language
+## GLOSSARY.md: the project's shared language
 
 The `GLOSSARY.md` file records project-specific domain language. It defines terms in one or two sentences
 without mixing in behavior, architecture, or implementation details. When several names could describe the same
@@ -78,7 +78,7 @@ I added this file after watching Matt Pocock explain his `grill-me-with-docs` sk
 I am still testing whether this improves agent output. Even if it does not, a short glossary is useful to humans and
 cheap for an agent to read.
 
-## `DESIGN.md`: what we are building and why
+## DESIGN.md: what we are building and why
 
 `DESIGN.md` is the stable description of what the system should do and why. It covers goals, non-goals,
 architecture, data flow, and major feature rules.
@@ -87,13 +87,13 @@ My `AGENTS.md` tells the agent to read `DESIGN.md` before changing code and to c
 change conflicts with the design, the agent asks me to resolve the conflict. I may change the implementation or
 update the design.
 
-## `PLAN.md`: the strategic route through the work
+## PLAN.md: the strategic route through the work
 
 `PLAN.md` turns an approved design into concrete implementation slices. Each slice defines what should be built,
 what it depends on, and how I will know it is complete. The plan describes the route, while `TASKS.md` contains the
 individual actions needed to complete each slice.
 
-## `TASKS.md`: the live source of truth
+## TASKS.md: the live source of truth
 
 `TASKS.md` is the source of truth for open and completed implementation work. The agent updates a task as soon as it
 is finished.
@@ -116,7 +116,7 @@ is finished.
 
 `[HUMAN]` marks a task that requires my judgment. Changes that affect scope or sequencing go back through planning.
 
-## `DECISION_LOG.md`: preserving the reason, not only the result
+## DECISION_LOG.md: preserving the reason, not only the result
 
 Code shows what changed, but often not why. `DECISION_LOG.md` is created when the first non-trivial decision or change
 needs an entry. Newest entries go at the top and record:
@@ -129,7 +129,7 @@ needs an entry. Newest entries go at the top and record:
 Typo fixes and other simple edits do not need an entry. I only record decisions that a future session
 could reasonably question or repeat. If any new action comes up, it is also added to `TASKS.md`.
 
-## `LEARNINGS.md`: constraints and gotchas that survive the session
+## LEARNINGS.md: constraints and gotchas that survive the session
 
 `LEARNINGS.md` stores constraints and gotchas that are neither tasks nor design decisions. It records facts a
 future session could easily miss by reading the code and design alone. For example, an external API may behave
@@ -162,7 +162,7 @@ The workflow keeps me involved where judgment is required:
 I keep these checkpoints for decisions that can change the project direction or behavior. The agent handles routine
 implementation choices.
 
-## The `AGENTS.md` instructions behind the workflow
+## The AGENTS.md instructions behind the workflow
 
 These are some of the actual rules from my `AGENTS.md`:
 
