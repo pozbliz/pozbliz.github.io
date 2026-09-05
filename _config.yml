@@ -8,7 +8,7 @@ timezone: Asia/Tokyo
 title: Seb's Sandbox
 tagline: Exploring AI and Data topics
 description: >- # this means to ignore newlines until "baseurl:"
-  Documenting what I learn about AI and Data
+  Practical articles about AI coding agents, context engineering, agent workflows and data engineering
 
 url: "https://www.sebastianrotter.de"
 baseurl: ""
