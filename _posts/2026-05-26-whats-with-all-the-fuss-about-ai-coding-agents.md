@@ -133,13 +133,15 @@ That is the key shift: the useful part is not only that it can write code, but t
 text-based tools to execute complex workflows.
 
 Depending on the tool and setup, coding agents can:
-- read surrounding files to understand the project context,
+- [read surrounding files to understand the project context](/posts/managing-agent-context-part-1-understanding-the-context-window/),
 - create, move, edit, or delete many files at once,
 - run multi-step workflows,
 - preserve memory of important knowledge or the current state,
 - iterate until a defined result is reached,
 - run multiple tasks in parallel,
 - connect to external tools through CLIs, APIs, or integrations.
+
+For longer projects, I use [a small set of Markdown files to preserve project state](/posts/7-markdown-files-i-use-to-manage-projects-with-coding-agents/) across sessions.
 
 Two ideas I want to unpack in future posts are stateful agents and goal-driven workflows, including the /goal command.
 
