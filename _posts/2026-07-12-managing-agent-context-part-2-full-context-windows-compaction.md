@@ -8,7 +8,7 @@ categories: []
 tags: [ai-agents, context-engineering, claude-code, codex]
 ---
 
-In part 1, I broke down what goes into an agent's context window. This part looks at what happens when
+In [part 1](/posts/managing-agent-context-part-1-understanding-the-context-window/), I broke down what goes into an agent's context window. This part looks at what happens when
 that window starts filling up, why compaction exists, and why I try not to rely on it too much.
 
 ## What happens when the context window fills up
@@ -147,6 +147,8 @@ after compaction. Instead, I use one of three ways to handle longer tasks:
 2. Use sub-agents to perform sub-tasks with the main agent acting as the orchestrator,
 3. Manually prompt the agent to summarize the current status and open tasks for use in a new
    session.
+
+I describe the [Markdown-based project workflow I currently use](/posts/7-markdown-files-i-use-to-manage-projects-with-coding-agents/) in more detail in a separate article.
 
 Generally, I ask for a handoff summary as soon as the tool starts warning me that context is running low.
 Depending on the status of work at that point, I might even interrupt the agent and force it to give me
