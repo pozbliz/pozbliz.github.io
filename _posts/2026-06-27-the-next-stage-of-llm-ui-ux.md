@@ -18,7 +18,7 @@ and security are reliable.
 
 Claude Tag is launching first on Slack, in beta for Claude Team and Enterprise customers. The general idea is to
 work with Claude the same way you would with a teammate: you tag Claude in a channel and delegate a task using
-the context available there.
+[the context available there](/posts/managing-agent-context-part-1-understanding-the-context-window/).
 
 Let's look at some examples Anthropic showed.
 
@@ -105,7 +105,7 @@ Source: [ClaudeDevs on X](https://x.com/ClaudeDevs/status/2069468908026020170)
 ## The death of agent CLIs?
 
 I like this way of interacting with Claude. It feels like Claude is a real teammate (a
-really smart one who also never gets tired). However, this does not make agent CLIs like Claude Code
+really smart one who also never gets tired). However, this does not make [agent CLIs like Claude Code](/posts/whats-with-all-the-fuss-about-ai-coding-agents/)
 obsolete. Anthropic says that
 ["Claude Code is still the fastest way to do solo, synchronous work. Claude Tag is Claude Code made multiplayer, async, and proactive across your whole team."](https://x.com/ClaudeDevs/status/2069468913264644419)
 
