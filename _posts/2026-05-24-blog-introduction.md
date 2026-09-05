@@ -31,7 +31,7 @@ I have been working with AI tools for some time now, as many of you probably hav
 here because you are at least somewhat interested in AI. And with executive teams pushing AI hard since 2023, 
 chasing the promised land of "productivity gains" and "efficiency increases", it has truly become impossible to ignore.
 
-For me, the biggest shift came when I started using AI coding agents, especially Claude Code. No more copy-pasting 
+For me, the biggest shift came when I started using [AI coding agents](/posts/whats-with-all-the-fuss-about-ai-coding-agents/), especially Claude Code. No more copy-pasting 
 stuff into ChatGPT. No more treating AI as just autocomplete inside my editor. Suddenly I have a tool that I can give 
 access to **ALL** of my files. I don't need to explain the same things over and over in every new session. 
 And every week there are new features, new workflows and new habits that make these tools more useful. It feels 
