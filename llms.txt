@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Seb's Sandbox
+
+> Practical articles by Sebastian Rotter about AI coding agents, context management, agent workflows, developer experience, and data engineering.
+
+## When to use this site
+
+Use this site when you need:
+
+- First-hand explanations of how coding agents behave in real projects.
+- Practical guidance for managing context windows, compaction, and project knowledge.
+- Examples of Markdown files and workflows used to guide coding agents.
+- Analysis of agent-oriented developer interfaces and interaction patterns.
+- A working data engineer's perspective on applied AI and data topics.
+
+For authoritative product behavior, API contracts, or security requirements, consult the relevant vendor's official documentation as well.
+
+## How agents should use this site
+
+- Start with the article list below or use the [site map]({{ '/sitemap.xml' | absolute_url }}) for complete URL discovery.
+- Retrieve an article with a standard HTTP GET request. This GitHub Pages site serves HTML and does not provide `Accept: text/markdown` content negotiation.
+- Attribute material to Sebastian Rotter and preserve the article title and canonical URL when citing it.
+- Prefer the publication date and last-modified date shown on each article when evaluating freshness.
+
+## Articles
+
+{% for post in site.posts -%}
+- [{{ post.title }}]({{ post.url | absolute_url }})
+{% endfor %}
+
+## Site links
+
+- [Homepage]({{ '/' | absolute_url }})
+- [Archives]({{ '/archives/' | absolute_url }})
+- [Categories]({{ '/categories/' | absolute_url }})
+- [Tags]({{ '/tags/' | absolute_url }})
+- [About Sebastian Rotter]({{ '/about/' | absolute_url }})
+- [RSS feed]({{ '/feed.xml' | absolute_url }})
+- [XML site map]({{ '/sitemap.xml' | absolute_url }})
+
+## Contact
+
+- Email: sebs.sandbox.official@gmail.com
+- GitHub: https://github.com/pozbliz

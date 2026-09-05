@@ -23,7 +23,7 @@ twitter:
 
 social:
   name: Sebastian Rotter
-  email:
+  email: sebs.sandbox.official@gmail.com
   fediverse_handle:
   links:
     - https://github.com/pozbliz
@@ -153,6 +153,7 @@ exclude:
   - editorial-brief.md
   - Gemfile.lock
   - tools
+  - tests
   - README.md
   - LICENSE
   - purgecss.js

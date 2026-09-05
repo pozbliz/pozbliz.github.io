@@ -1,0 +1,45 @@
+{% if page.url == '/' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ '/#person' | absolute_url | jsonify }},
+      "name": {{ site.social.name | jsonify }},
+      "description": "Data engineer writing about AI coding agents, agent workflows, developer experience, and data engineering.",
+      "url": {{ '/' | absolute_url | jsonify }},
+      "image": {{ site.avatar | absolute_url | jsonify }},
+      "jobTitle": "Data Engineer",
+      "sameAs": {{ site.social.links | jsonify }},
+      "knowsAbout": [
+        "AI coding agents",
+        "Agent workflows",
+        "Context engineering",
+        "Data engineering"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": {{ '/#organization' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ site.avatar | absolute_url | jsonify }}
+      },
+      "founder": {
+        "@id": {{ '/#person' | absolute_url | jsonify }}
+      },
+      "sameAs": {{ site.social.links | jsonify }},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": {{ site.social.email | jsonify }},
+        "contactType": "editorial inquiries",
+        "availableLanguage": ["English", "German"]
+      }
+    }
+  </script>
+{% endif %}
