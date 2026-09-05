@@ -11,7 +11,7 @@ When I started using AI coding agents, I managed most projects through conversat
 fit into one session. It becomes harder when a project spans several sessions and a new agent needs to recover
 previous decisions, preferences, and unfinished work. I used to handle this with handover prompts. Those help, but
 important decisions still get buried, discovered tasks get lost, and the reason behind rejected approaches often
-disappears.
+disappears. I discuss the tradeoffs between handoffs, fresh sessions, and compaction in [Managing agent context - Part 2](/posts/managing-agent-context-part-2-full-context-windows-compaction/).
 
 My current solution is a small set of Markdown files that can grow with the project:
 
@@ -40,7 +40,7 @@ recording its current state and history on disk becomes more useful.
 
 ## The role of each file
 
-I use separate files so the agent can load only what it needs and distinguish current state from plans, decisions,
+I use separate files so [the agent can load only what it needs](/posts/managing-agent-context-part-1-understanding-the-context-window/) and distinguish current state from plans, decisions,
 and tasks.
 
 Each file answers a different question:
