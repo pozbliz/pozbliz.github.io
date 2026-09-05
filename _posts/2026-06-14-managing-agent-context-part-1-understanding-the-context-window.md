@@ -157,7 +157,7 @@ clearing the remaining past messages. The compact buffer reserves a configurable
 tokens in each session to allow the compaction operation to be executed more
 reliably. When performing the compaction, Claude will reason about which parts
 of the conversation to include in the summary, so this operation itself will
-also consume tokens. I will cover compaction in more detail in part 2.
+also consume tokens. I will cover compaction in more detail in [part 2](/posts/managing-agent-context-part-2-full-context-windows-compaction/).
 
 Note that in my workflow I have disabled auto-compaction, so the buffer is only
 minimal. You will find my reasoning about that also in the part further below.
@@ -187,7 +187,7 @@ All of these pieces compete for the same limited space. The more you understand 
 loaded, the easier it becomes to reason about why an agent behaves a certain way, why it may forget
 earlier details, and what you can do to keep future sessions focused.
 
-In part 2, we will look more closely at what happens when the context window fills up, including
+In [part 2](/posts/managing-agent-context-part-2-full-context-windows-compaction/), we will look more closely at what happens when the context window fills up, including
 compaction and other ways to keep working on the same topic without losing the important parts of
 the conversation.
 
