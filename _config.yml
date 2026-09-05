@@ -6,9 +6,7 @@ lang: en
 timezone: Asia/Tokyo
 
 title: Seb's Sandbox
-
 tagline: Exploring AI and Data topics
-
 description: >- # this means to ignore newlines until "baseurl:"
   Documenting what I learn about AI and Data
 
@@ -39,7 +37,7 @@ webmaster_verifications:
 
 analytics:
   google:
-    id:
+    id: G-NEV3X54L8Y
   goatcounter:
     id:
   umami:
